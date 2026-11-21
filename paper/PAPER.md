@@ -1,6 +1,7 @@
 # LESNet: a linear pair filter with a softmax combine for sets of interacting entities
 
-*Lester · Independent Researcher · lesterbark@gmail.com*
+*Lester · Independent Researcher · lesterbark@gmail.com*  
+*Code and raw results: https://github.com/lesterbark/LESNet*
 
 ## Abstract
 
@@ -698,7 +699,7 @@ This paper tested how far a minimal pair layer (one linear map of receiver, part
 **Hardware and software.** NVIDIA GTX 1660 Ti (mobile; Turing, sm_75, 24 SMs, 6 GB, no tensor cores), Intel Core i7-10750H, 16 GB RAM, Windows 11. Python 3.11.9, PyTorch 2.4.1+cu124, nvcc 12.9, MSVC 2022. Everything is fp32. The benchmark data are the Top Quark Tagging
 Reference Dataset (Zenodo, DOI 10.5281/zenodo.2603256), MNIST and CIFAR-10 (via torchvision), the Planetoid citation graphs (Cora, CiteSeer) and Tiny Shakespeare; the jet files are read with h5py and hdf5plugin.
 
-**Code.** The code, the scripts that produce every table and figure, and the raw result files are released with this paper. Paths below are relative to the repository root.
+**Code.** The code, the scripts that produce every table and figure, and the raw result files are publicly released at https://github.com/lesterbark/LESNet. Paths below are relative to the repository root.
 
 | what | where |
 |---|---|

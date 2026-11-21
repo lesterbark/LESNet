@@ -1,6 +1,7 @@
 # LESNet: a linear pair filter with a softmax combine for sets of interacting entities
 
-*Lester · Independent Researcher · lesterbark@gmail.com*
+*Lester · Independent Researcher · lesterbark@gmail.com*  
+*Code and raw results: https://github.com/lesterbark/LESNet*
 
 ## Abstract
 
