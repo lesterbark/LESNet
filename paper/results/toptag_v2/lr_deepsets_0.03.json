@@ -1,0 +1,26 @@
+{
+ "name": "lr_deepsets_0.03",
+ "family": "deepsets",
+ "width": 136,
+ "depth": 3,
+ "k": 16,
+ "params": 149737,
+ "lr": 0.03,
+ "seed": 0,
+ "epochs": 2.0,
+ "train_jets": 1211000,
+ "batch": 512,
+ "steps": 400,
+ "train_s": 23.84784460067749,
+ "ms_per_step": 59.619611501693726,
+ "hist": [
+  {
+   "step": 400,
+   "train_loss": 0.2767279899342086,
+   "val_auc": 0.9566995670287846,
+   "val_acc": 0.90155,
+   "val_rej30": 104.52631578947368,
+   "val_rej50": 42.255319148936174
+  }
+ ]
+}

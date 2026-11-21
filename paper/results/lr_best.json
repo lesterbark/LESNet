@@ -1,0 +1,8 @@
+{
+ "GENConv": 0.01,
+ "GNN": 0.003,
+ "DeepSets": 0.01,
+ "MLP-flat": 0.003,
+ "LES": 0.03,
+ "Transformer": 0.003
+}

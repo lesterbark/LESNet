@@ -1,0 +1,44 @@
+[
+ {
+  "family": "les",
+  "width": 156,
+  "params": 151633,
+  "ms_per_step": 81.02748394012451,
+  "peak_mem_mb": 684.83203125
+ },
+ {
+  "family": "les_cat",
+  "width": 152,
+  "params": 147137,
+  "ms_per_step": 82.05714225769043,
+  "peak_mem_mb": 671.2822265625
+ },
+ {
+  "family": "deepsets",
+  "width": 136,
+  "params": 149737,
+  "ms_per_step": 22.882235050201416,
+  "peak_mem_mb": 367.15283203125
+ },
+ {
+  "family": "transformer",
+  "width": 72,
+  "params": 137977,
+  "ms_per_step": 134.78869199752808,
+  "peak_mem_mb": 1121.17626953125
+ },
+ {
+  "family": "gnn",
+  "width": 92,
+  "params": 147385,
+  "ms_per_step": 249.38910007476807,
+  "peak_mem_mb": 3747.24658203125
+ },
+ {
+  "family": "gen",
+  "width": 116,
+  "params": 152428,
+  "ms_per_step": 465.4353857040405,
+  "peak_mem_mb": 2836.05322265625
+ }
+]

@@ -1,0 +1,53 @@
+operable program or batch file.
+Detected CUDA files, patching ldflags
+Building extension module les_ext_v2...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+cuda.cu
+tmpxft_0000c81c_00000000-7_cuda.cudafe1.cpp
+   Creating library les_ext_v2.lib and object les_ext_v2.exp
+Loading extension module les_ext_v2...
+extension: CUDA kernels
+pair features: pos,axis = PF4
+
+-- fast vs float64 oracle --
+  B4 N16 C8 W64 D3     fwd 3.64e-07  param-grad 4.10e-07 (layers.0.A)  input-grad 2.37e-07  ok
+  B3 N7 C5 W32 D1      fwd 1.20e-07  param-grad 2.39e-07 (layers.0.A)  input-grad 8.60e-08  ok
+  B2 N33 C12 W128 D4   fwd 3.45e-07  param-grad 6.72e-07 (layers.2.E)  input-grad 5.46e-07  ok
+  B2 N50 C6 W100 D2    fwd 4.10e-07  param-grad 1.91e-06 (layers.0.A)  input-grad 8.27e-07  ok
+  B2 N64 C6 W256 D5    fwd 7.34e-07  param-grad 1.42e-06 (layers.3.A)  input-grad 9.51e-07  ok
+  B4 N5 C80 W256 D3    fwd 2.31e-07  param-grad 6.41e-07 (layers.0.A)  input-grad 4.51e-07  ok
+
+-- list layout (k nearest / radius / receivers != senders) vs the oracle --
+  list B3 N24 K6       fwd 1.37e-07  param-grad 2.15e-07 (layers.0.E)  input-grad 1.38e-07  ok
+  list B2 N40 K12      fwd 2.07e-07  param-grad 2.07e-07 (layers.0.c1)  input-grad 6.38e-08  ok
+  list B2 N33 K32      fwd 1.95e-07  param-grad 6.09e-07 (layers.0.A)  input-grad 3.73e-07  ok
+  list B4 N9 K3        fwd 6.74e-08  param-grad 1.41e-07 (layers.0.c1)  input-grad 5.40e-08  ok
+  list B2 N64 K16      fwd 2.83e-07  param-grad 3.77e-07 (layers.0.A)  input-grad 1.47e-07  ok
+  list(K=N-1)==dense   rel diff 3.12e-07  ok
+  list permutation     k=8 rel diff 0.00e+00  ok
+  grid kNN B2 N300 k8 r0.4     identical to brute force: True  (mean partners 6.1)
+  grid kNN B3 N1000 k24 r0.3   identical to brute force: True  (mean partners 19.9)
+  grid kNN B1 N64 k5 r1.5      identical to brute force: True  (mean partners 5.0)
+  grid kNN B4 N500 k16 r0.05   identical to brute force: True  (mean partners 0.2)
+  grid kNN B2 N2000 k32 r0.25  identical to brute force: True  (mean partners 29.3)
+  grid kNN B1 N40 k64 r2.0     identical to brute force: True  (mean partners 23.8)
+  multiplicity invariance each partner x3: rel diff 1.42e-07  ok
+  rect R50 S17 K9      fwd 1.84e-07  grads A/B/E/c/xr/xs max 2.51e-07  ok
+  rect R7 S200 K30     fwd 1.77e-07  grads A/B/E/c/xr/xs max 3.52e-07  ok
+
+-- variable feature depth (cin) --
+  N=5 cin=1            fwd 1.69e-07  param-grad 2.63e-07 (layers.0.A)  input-grad 9.07e-08  ok
+  N=5 cin=3            fwd 2.06e-07  param-grad 5.23e-07 (layers.2.A)  input-grad 3.28e-07  ok
+  N=5 cin=80           fwd 2.74e-07  param-grad 7.75e-07 (layers.0.A)  input-grad 3.77e-07  ok
+  N=5 cin=129          fwd 1.42e-07  param-grad 4.53e-07 (layers.1.A)  input-grad 2.95e-07  ok
+
+-- variable entity count (N is per row, not per batch) --
+  ragged N per row     counts [8, 1, 4, 7, 2]  vs run-alone rel diff 4.28e-07  ok
+
+-- architecture properties --
+  permutation          rel diff 4.53e-07  ok
+  pf= escape hatch     rel diff 0.00e+00  learnable-pf guard fires  ok
+  input_grad=False     fwd 0.00e+00  param-grad 1.54e-07  input-grad skipped  ok
+  spec parsing         bundle expands  dupes dropped  typo rejected  ok
+
+PASS

@@ -1,0 +1,7 @@
+operable program or batch file.
+gpu: NVIDIA GeForce GTX 1660 Ti   cin=16 width=128 depth=4
+     N    B |     dense | list K=8   | list K=16  | list K=32  | knn brute | knn grid   (ms; layers = fwd+bwd)
+    64  256 |     16.88 |      8.79   |     11.49   |     18.20   |    10.93 |     2.74
+   256   64 |     81.40 |      9.50   |     12.98   |     19.36   |    42.58 |     3.45
+  1024   16 |    271.64 |     10.18   |     13.67   |     20.21   |   172.39 |     4.02
+  4096    4 |         - |     11.02   |     15.13   |     23.69   |   702.79 |     4.03

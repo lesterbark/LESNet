@@ -1,0 +1,48 @@
+{
+ "cifar": {
+  "les": {
+   "params": 150442,
+   "ms_per_step": 23.942534128824867,
+   "peak_mem_mb": 600.71923828125
+  },
+  "cnn": {
+   "params": 162994,
+   "ms_per_step": 11.923694610595703,
+   "peak_mem_mb": 278.263671875
+  }
+ },
+ "pointset": {
+  "les": {
+   "params": 151798,
+   "ms_per_step": 35.02591451009115,
+   "peak_mem_mb": 445.59814453125
+  },
+  "gnn": {
+   "params": 147854,
+   "ms_per_step": 92.57143338521321,
+   "peak_mem_mb": 1424.5029296875
+  },
+  "transformer": {
+   "params": 138346,
+   "ms_per_step": 46.05603218078613,
+   "peak_mem_mb": 598.3291015625
+  },
+  "deepsets": {
+   "params": 150426,
+   "ms_per_step": 8.707125981648764,
+   "peak_mem_mb": 341.52294921875
+  }
+ },
+ "charlm": {
+  "les": {
+   "params": 806969,
+   "ms_per_step": 126.77632967631023,
+   "peak_mem_mb": 910.578125
+  },
+  "gpt": {
+   "params": 827281,
+   "ms_per_step": 97.74915377298991,
+   "peak_mem_mb": 951.66455078125
+  }
+ }
+}

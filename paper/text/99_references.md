@@ -1,0 +1,34 @@
+## References
+
+- Battaglia, P., Pascanu, R., Lai, M., Rezende, D. J., Kavukcuoglu, K. (2016). Interaction Networks for Learning about Objects, Relations and Physics. *NeurIPS*.
+- Brody, S., Alon, U., Yahav, E. (2022). How Attentive are Graph Attention Networks? *ICLR*.
+- Corso, G., Cavalleri, L., Beaini, D., Liò, P., Veličković, P. (2020). Principal Neighbourhood Aggregation for Graph Nets. *NeurIPS*.
+- Dao, T., Fu, D. Y., Ermon, S., Rudra, A., Ré, C. (2022). FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness. *NeurIPS*.
+- Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., Dahl, G. E. (2017). Neural Message Passing for Quantum Chemistry. *ICML*.
+- Karpathy, A. (2015). The Unreasonable Effectiveness of Recurrent Neural Networks (Tiny Shakespeare corpus). Blog post and char-rnn repository.
+- Kasieczka, G., Plehn, T., Butter, A., et al. (2019). The Machine Learning Landscape of Top Taggers. *SciPost Physics* 7, 014. (Top Quark Tagging Reference Dataset, Zenodo 10.5281/zenodo.2603256.)
+- Kipf, T. N., Welling, M. (2017). Semi-Supervised Classification with Graph Convolutional Networks. *ICLR*.
+- Komiske, P. T., Metodiev, E. M., Thaler, J. (2019). Energy Flow Networks: Deep Sets for Particle Jets. *Journal of High Energy Physics* 01, 121.
+- Krizhevsky, A. (2009). Learning Multiple Layers of Features from Tiny Images. Technical report, University of Toronto.
+- LeCun, Y., Bottou, L., Bengio, Y., Haffner, P. (1998). Gradient-based learning applied to document recognition. *Proceedings of the IEEE* 86(11).
+- Lee, J., Lee, Y., Kim, J., Kosiorek, A., Choi, S., Teh, Y. W. (2019). Set Transformer: A Framework for Attention-based Permutation-Invariant Neural Networks. *ICML*.
+- Li, G., Xiong, C., Thabet, A., Ghanem, B. (2020). DeeperGCN: All You Need to Train Deeper GCNs. *arXiv:2006.07739*.
+- Li, Y., Wu, J., Tedrake, R., Tenenbaum, J. B., Torralba, A. (2019). Learning Particle Dynamics for Manipulating Rigid Bodies, Deformable Objects, and Fluids. *ICLR*.
+- Loshchilov, I., Hutter, F. (2019). Decoupled Weight Decay Regularization. *ICLR*.
+- Maas, A. L., Hannun, A. Y., Ng, A. Y. (2013). Rectifier Nonlinearities Improve Neural Network Acoustic Models. *ICML Workshop on Deep Learning for Audio, Speech and Language Processing*.
+- Milakov, M., Gimelshein, N. (2018). Online normalizer calculation for softmax. *arXiv:1805.02867*.
+- Monaghan, J. J. (1992). Smoothed Particle Hydrodynamics. *Annual Review of Astronomy and Astrophysics* 30, 543-574.
+- Qi, C. R., Su, H., Mo, K., Guibas, L. J. (2017). PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. *CVPR*.
+- Qu, H., Gouskos, L. (2020). Jet tagging via particle clouds (ParticleNet). *Physical Review D* 101, 056019. arXiv:1902.08570.
+- Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I. (2019). Language Models are Unsupervised Multitask Learners. OpenAI technical report.
+- Sanchez-Gonzalez, A., Godwin, J., Pfaff, T., Ying, R., Leskovec, J., Battaglia, P. (2020). Learning to Simulate Complex Physics with Graph Networks. *ICML*.
+- Santoro, A., Raposo, D., Barrett, D. G. T., Malinowski, M., Pascanu, R., Battaglia, P., Lillicrap, T. (2017). A simple neural network module for relational reasoning. *NeurIPS*.
+- Satorras, V. G., Hoogeboom, E., Welling, M. (2021). E(n) Equivariant Graph Neural Networks. *ICML*.
+- Schütt, K. T., Kindermans, P.-J., Sauceda, H. E., Chmiela, S., Tkatchenko, A., Müller, K.-R. (2017). SchNet: A continuous-filter convolutional neural network for modeling quantum interactions. *NeurIPS*.
+- Tay, Y., Bahri, D., Metzler, D., Juan, D.-C., Zhao, Z., Zheng, C. (2021). Synthesizer: Rethinking Self-Attention for Transformer Models. *ICML*.
+- Ummenhofer, B., Prantl, L., Thuerey, N., Koltun, V. (2020). Lagrangian Fluid Simulation with Continuous Convolutions. *ICLR*.
+- Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., Polosukhin, I. (2017). Attention Is All You Need. *NeurIPS*.
+- Veličković, P., Cucurull, G., Casanova, A., Romero, A., Liò, P., Bengio, Y. (2018). Graph Attention Networks. *ICLR*.
+- Wang, Y., Sun, Y., Liu, Z., Sarma, S. E., Bronstein, M. M., Solomon, J. M. (2019). Dynamic Graph CNN for Learning on Point Clouds. *ACM Transactions on Graphics* 38(5).
+- Yang, Z., Cohen, W. W., Salakhutdinov, R. (2016). Revisiting Semi-Supervised Learning with Graph Embeddings. *ICML*.
+- Zaheer, M., Kottur, S., Ravanbakhsh, S., Póczos, B., Salakhutdinov, R., Smola, A. (2017). Deep Sets. *NeurIPS*.

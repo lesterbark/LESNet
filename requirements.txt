@@ -1,0 +1,11 @@
+torch==2.4.1
+torchvision==0.19.1
+numpy==1.26.4
+scipy
+matplotlib
+markdown
+ninja
+pillow
+h5py
+hdf5plugin
+pygame

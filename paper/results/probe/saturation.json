@@ -1,0 +1,570 @@
+[
+ {
+  "task": "local_vel_avg",
+  "lr": 0.001,
+  "final": 0.6653709411621094,
+  "rows": [
+   {
+    "norm_entropy": 0.952024777730306,
+    "mean_max_weight": 0.14128512144088745,
+    "grad_top_share": 0.23044343292713165,
+    "grad_active_frac": 0.999196728070577,
+    "step": 1,
+    "loss": 1.1653251647949219
+   },
+   {
+    "norm_entropy": 0.9508922298749288,
+    "mean_max_weight": 0.1458373169104258,
+    "grad_top_share": 0.23608017464478812,
+    "grad_active_frac": 0.9991812308629354,
+    "step": 25,
+    "loss": 0.42639562487602234
+   },
+   {
+    "norm_entropy": 0.9524407585461935,
+    "mean_max_weight": 0.14664832254250845,
+    "grad_top_share": 0.23611282308896384,
+    "grad_active_frac": 0.9991807341575623,
+    "step": 50,
+    "loss": 0.3199763000011444
+   },
+   {
+    "norm_entropy": 0.9455429116884867,
+    "mean_max_weight": 0.1561328669389089,
+    "grad_top_share": 0.2531551818052928,
+    "grad_active_frac": 0.99910436073939,
+    "step": 100,
+    "loss": 0.25445103645324707
+   },
+   {
+    "norm_entropy": 0.9405757387479147,
+    "mean_max_weight": 0.15674495697021484,
+    "grad_top_share": 0.25745650629202527,
+    "grad_active_frac": 0.9990243514378866,
+    "step": 200,
+    "loss": 0.20632237195968628
+   },
+   {
+    "norm_entropy": 0.9425793290138245,
+    "mean_max_weight": 0.15464487671852112,
+    "grad_top_share": 0.25564998388290405,
+    "grad_active_frac": 0.9990099867184957,
+    "step": 400,
+    "loss": 0.1782047003507614
+   },
+   {
+    "norm_entropy": 0.9431414802869161,
+    "mean_max_weight": 0.16071679691473642,
+    "grad_top_share": 0.26350589593251544,
+    "grad_active_frac": 0.9989713827768961,
+    "step": 800,
+    "loss": 0.14746956527233124
+   },
+   {
+    "norm_entropy": 0.9407292405764262,
+    "mean_max_weight": 0.15898335973421732,
+    "grad_top_share": 0.2623031437397003,
+    "grad_active_frac": 0.998968243598938,
+    "step": 1500,
+    "loss": 0.1396588534116745
+   }
+  ]
+ },
+ {
+  "task": "local_vel_avg",
+  "lr": 0.003,
+  "final": 0.7505110576748848,
+  "rows": [
+   {
+    "norm_entropy": 0.952024777730306,
+    "mean_max_weight": 0.14128512144088745,
+    "grad_top_share": 0.23044343292713165,
+    "grad_active_frac": 0.999196728070577,
+    "step": 1,
+    "loss": 1.1653251647949219
+   },
+   {
+    "norm_entropy": 0.9525181849797567,
+    "mean_max_weight": 0.1438057174285253,
+    "grad_top_share": 0.23205418388048807,
+    "grad_active_frac": 0.9992021123568217,
+    "step": 25,
+    "loss": 0.36954307556152344
+   },
+   {
+    "norm_entropy": 0.9545023242632548,
+    "mean_max_weight": 0.14403301974137625,
+    "grad_top_share": 0.23104854921499887,
+    "grad_active_frac": 0.9992164969444275,
+    "step": 50,
+    "loss": 0.28940144181251526
+   },
+   {
+    "norm_entropy": 0.9485044082005819,
+    "mean_max_weight": 0.15323384602864584,
+    "grad_top_share": 0.24788115421930948,
+    "grad_active_frac": 0.9991651574770609,
+    "step": 100,
+    "loss": 0.23707565665245056
+   },
+   {
+    "norm_entropy": 0.9569995601971945,
+    "mean_max_weight": 0.13977799316247305,
+    "grad_top_share": 0.22703063984711966,
+    "grad_active_frac": 0.999223530292511,
+    "step": 200,
+    "loss": 0.2535093128681183
+   },
+   {
+    "norm_entropy": 0.9619211554527283,
+    "mean_max_weight": 0.13348672290643057,
+    "grad_top_share": 0.2159201701482137,
+    "grad_active_frac": 0.9993009169896444,
+    "step": 400,
+    "loss": 0.13057616353034973
+   },
+   {
+    "norm_entropy": 0.9662697116533915,
+    "mean_max_weight": 0.1341463898619016,
+    "grad_top_share": 0.2119050274292628,
+    "grad_active_frac": 0.9993911782900492,
+    "step": 800,
+    "loss": 0.11138815432786942
+   },
+   {
+    "norm_entropy": 0.9678718646367391,
+    "mean_max_weight": 0.12889177352190018,
+    "grad_top_share": 0.20418127377827963,
+    "grad_active_frac": 0.9994287689526876,
+    "step": 1500,
+    "loss": 0.10283651947975159
+   }
+  ]
+ },
+ {
+  "task": "local_vel_avg",
+  "lr": 0.01,
+  "final": 0.8137121796607971,
+  "rows": [
+   {
+    "norm_entropy": 0.952024777730306,
+    "mean_max_weight": 0.14128512144088745,
+    "grad_top_share": 0.23044343292713165,
+    "grad_active_frac": 0.999196728070577,
+    "step": 1,
+    "loss": 1.1653251647949219
+   },
+   {
+    "norm_entropy": 0.9570332566897074,
+    "mean_max_weight": 0.13819529364506403,
+    "grad_top_share": 0.2208697348833084,
+    "grad_active_frac": 0.9992578029632568,
+    "step": 25,
+    "loss": 0.3442232608795166
+   },
+   {
+    "norm_entropy": 0.9603869716326395,
+    "mean_max_weight": 0.13698747754096985,
+    "grad_top_share": 0.21698645750681558,
+    "grad_active_frac": 0.9992974797884623,
+    "step": 50,
+    "loss": 0.297667920589447
+   },
+   {
+    "norm_entropy": 0.9674717783927917,
+    "mean_max_weight": 0.12983954946200052,
+    "grad_top_share": 0.2016153335571289,
+    "grad_active_frac": 0.999466061592102,
+    "step": 100,
+    "loss": 0.2461308240890503
+   },
+   {
+    "norm_entropy": 0.974367360273997,
+    "mean_max_weight": 0.11574965467055638,
+    "grad_top_share": 0.17623486121495566,
+    "grad_active_frac": 0.999576985836029,
+    "step": 200,
+    "loss": 0.1276135891675949
+   },
+   {
+    "norm_entropy": 0.981727679570516,
+    "mean_max_weight": 0.10555076599121094,
+    "grad_top_share": 0.15623422960440317,
+    "grad_active_frac": 0.9997087518374125,
+    "step": 400,
+    "loss": 0.10193120688199997
+   },
+   {
+    "norm_entropy": 0.9841057658195496,
+    "mean_max_weight": 0.10736505438884099,
+    "grad_top_share": 0.15396554271380106,
+    "grad_active_frac": 0.999782383441925,
+    "step": 800,
+    "loss": 0.07967467606067657
+   },
+   {
+    "norm_entropy": 0.9839975833892822,
+    "mean_max_weight": 0.10432393848896027,
+    "grad_top_share": 0.15028502543767294,
+    "grad_active_frac": 0.9997759858767191,
+    "step": 1500,
+    "loss": 0.07595060765743256
+   }
+  ]
+ },
+ {
+  "task": "local_vel_avg",
+  "lr": 0.03,
+  "final": 0.8407305851578712,
+  "rows": [
+   {
+    "norm_entropy": 0.952024777730306,
+    "mean_max_weight": 0.14128512144088745,
+    "grad_top_share": 0.23044343292713165,
+    "grad_active_frac": 0.999196728070577,
+    "step": 1,
+    "loss": 1.1653251647949219
+   },
+   {
+    "norm_entropy": 0.9669143557548523,
+    "mean_max_weight": 0.12526904046535492,
+    "grad_top_share": 0.19416088362534842,
+    "grad_active_frac": 0.9994475642840067,
+    "step": 25,
+    "loss": 0.3443734049797058
+   },
+   {
+    "norm_entropy": 0.9716287652651469,
+    "mean_max_weight": 0.12135770420233409,
+    "grad_top_share": 0.18376976251602173,
+    "grad_active_frac": 0.9995450178782145,
+    "step": 50,
+    "loss": 0.2797996699810028
+   },
+   {
+    "norm_entropy": 0.9800900220870972,
+    "mean_max_weight": 0.11163995166619618,
+    "grad_top_share": 0.16375337541103363,
+    "grad_active_frac": 0.9996916850407919,
+    "step": 100,
+    "loss": 0.17897382378578186
+   },
+   {
+    "norm_entropy": 0.9888059298197428,
+    "mean_max_weight": 0.09417816748221715,
+    "grad_top_share": 0.12967908879121146,
+    "grad_active_frac": 0.9998612999916077,
+    "step": 200,
+    "loss": 0.11044099926948547
+   },
+   {
+    "norm_entropy": 0.9913198153177897,
+    "mean_max_weight": 0.0883581315477689,
+    "grad_top_share": 0.11737959831953049,
+    "grad_active_frac": 0.9999100764592489,
+    "step": 400,
+    "loss": 0.086030974984169
+   },
+   {
+    "norm_entropy": 0.9916796684265137,
+    "mean_max_weight": 0.09245774398247401,
+    "grad_top_share": 0.12026669830083847,
+    "grad_active_frac": 0.9999160369237264,
+    "step": 800,
+    "loss": 0.07302095741033554
+   },
+   {
+    "norm_entropy": 0.9914534091949463,
+    "mean_max_weight": 0.08999528735876083,
+    "grad_top_share": 0.11797960847616196,
+    "grad_active_frac": 0.9999154806137085,
+    "step": 1500,
+    "loss": 0.06465136259794235
+   }
+  ]
+ },
+ {
+  "task": "nn_type",
+  "lr": 0.001,
+  "final": 0.860996788343259,
+  "rows": [
+   {
+    "norm_entropy": 0.952024777730306,
+    "mean_max_weight": 0.14128512144088745,
+    "grad_top_share": 0.23044343292713165,
+    "grad_active_frac": 0.999196728070577,
+    "step": 1,
+    "loss": 1.0830096006393433
+   },
+   {
+    "norm_entropy": 0.951997975508372,
+    "mean_max_weight": 0.1444035271803538,
+    "grad_top_share": 0.2331231782833735,
+    "grad_active_frac": 0.9991791248321533,
+    "step": 25,
+    "loss": 0.9102186560630798
+   },
+   {
+    "norm_entropy": 0.9536847273508707,
+    "mean_max_weight": 0.14480938017368317,
+    "grad_top_share": 0.2320605864127477,
+    "grad_active_frac": 0.9992138544718424,
+    "step": 50,
+    "loss": 0.8642724752426147
+   },
+   {
+    "norm_entropy": 0.9474273522694906,
+    "mean_max_weight": 0.15306629737218222,
+    "grad_top_share": 0.24679169555505118,
+    "grad_active_frac": 0.9991296331087748,
+    "step": 100,
+    "loss": 0.8063714504241943
+   },
+   {
+    "norm_entropy": 0.9236410856246948,
+    "mean_max_weight": 0.17239686846733093,
+    "grad_top_share": 0.2751132547855377,
+    "grad_active_frac": 0.9990171988805135,
+    "step": 200,
+    "loss": 0.6548618078231812
+   },
+   {
+    "norm_entropy": 0.9133086204528809,
+    "mean_max_weight": 0.18179709712664285,
+    "grad_top_share": 0.28682681918144226,
+    "grad_active_frac": 0.9990218877792358,
+    "step": 400,
+    "loss": 0.5251952409744263
+   },
+   {
+    "norm_entropy": 0.8986965616544088,
+    "mean_max_weight": 0.20188496013482413,
+    "grad_top_share": 0.3135800858338674,
+    "grad_active_frac": 0.9990189075469971,
+    "step": 800,
+    "loss": 0.3739706873893738
+   },
+   {
+    "norm_entropy": 0.8888548215230306,
+    "mean_max_weight": 0.20664653182029724,
+    "grad_top_share": 0.31979890664418537,
+    "grad_active_frac": 0.9990060528119405,
+    "step": 1500,
+    "loss": 0.3328864276409149
+   }
+  ]
+ },
+ {
+  "task": "nn_type",
+  "lr": 0.003,
+  "final": 0.92996928840797,
+  "rows": [
+   {
+    "norm_entropy": 0.952024777730306,
+    "mean_max_weight": 0.14128512144088745,
+    "grad_top_share": 0.23044343292713165,
+    "grad_active_frac": 0.999196728070577,
+    "step": 1,
+    "loss": 1.0830096006393433
+   },
+   {
+    "norm_entropy": 0.9539091189702352,
+    "mean_max_weight": 0.14190609256426492,
+    "grad_top_share": 0.22803284724553427,
+    "grad_active_frac": 0.9992125630378723,
+    "step": 25,
+    "loss": 0.8778041005134583
+   },
+   {
+    "norm_entropy": 0.9549960096677145,
+    "mean_max_weight": 0.14257101466258368,
+    "grad_top_share": 0.22734200954437256,
+    "grad_active_frac": 0.9992042382558187,
+    "step": 50,
+    "loss": 0.8473671078681946
+   },
+   {
+    "norm_entropy": 0.9406829675038656,
+    "mean_max_weight": 0.16031669080257416,
+    "grad_top_share": 0.2563711851835251,
+    "grad_active_frac": 0.9991204738616943,
+    "step": 100,
+    "loss": 0.7499207854270935
+   },
+   {
+    "norm_entropy": 0.92811652024587,
+    "mean_max_weight": 0.16793966790040335,
+    "grad_top_share": 0.2645179529984792,
+    "grad_active_frac": 0.9991148511568705,
+    "step": 200,
+    "loss": 0.5326874256134033
+   },
+   {
+    "norm_entropy": 0.9304069876670837,
+    "mean_max_weight": 0.1657217095295588,
+    "grad_top_share": 0.2623370587825775,
+    "grad_active_frac": 0.9991654753684998,
+    "step": 400,
+    "loss": 0.3039131462574005
+   },
+   {
+    "norm_entropy": 0.9310850103696188,
+    "mean_max_weight": 0.17196844518184662,
+    "grad_top_share": 0.26825926701227826,
+    "grad_active_frac": 0.9991840720176697,
+    "step": 800,
+    "loss": 0.19513319432735443
+   },
+   {
+    "norm_entropy": 0.9264439145723978,
+    "mean_max_weight": 0.1725984662771225,
+    "grad_top_share": 0.2701257715622584,
+    "grad_active_frac": 0.9991321961085001,
+    "step": 1500,
+    "loss": 0.16004803776741028
+   }
+  ]
+ },
+ {
+  "task": "nn_type",
+  "lr": 0.01,
+  "final": 0.9556562579022088,
+  "rows": [
+   {
+    "norm_entropy": 0.952024777730306,
+    "mean_max_weight": 0.14128512144088745,
+    "grad_top_share": 0.23044343292713165,
+    "grad_active_frac": 0.999196728070577,
+    "step": 1,
+    "loss": 1.0830096006393433
+   },
+   {
+    "norm_entropy": 0.9560533761978149,
+    "mean_max_weight": 0.13829322159290314,
+    "grad_top_share": 0.22011888027191162,
+    "grad_active_frac": 0.9992521206537882,
+    "step": 25,
+    "loss": 0.8640880584716797
+   },
+   {
+    "norm_entropy": 0.9565399487813314,
+    "mean_max_weight": 0.14021503428618112,
+    "grad_top_share": 0.22236016392707825,
+    "grad_active_frac": 0.9992409348487854,
+    "step": 50,
+    "loss": 0.830574631690979
+   },
+   {
+    "norm_entropy": 0.9567406972249349,
+    "mean_max_weight": 0.14207794268925986,
+    "grad_top_share": 0.22097518046696982,
+    "grad_active_frac": 0.9993789593378702,
+    "step": 100,
+    "loss": 0.6324458718299866
+   },
+   {
+    "norm_entropy": 0.956839124361674,
+    "mean_max_weight": 0.13439424087603888,
+    "grad_top_share": 0.20308380325635275,
+    "grad_active_frac": 0.9994703928629557,
+    "step": 200,
+    "loss": 0.4209478199481964
+   },
+   {
+    "norm_entropy": 0.9643486936887106,
+    "mean_max_weight": 0.12451187272866567,
+    "grad_top_share": 0.18323167661825815,
+    "grad_active_frac": 0.9996238946914673,
+    "step": 400,
+    "loss": 0.15338267385959625
+   },
+   {
+    "norm_entropy": 0.9637922048568726,
+    "mean_max_weight": 0.12973504016796747,
+    "grad_top_share": 0.18696737786134085,
+    "grad_active_frac": 0.9996382395426432,
+    "step": 800,
+    "loss": 0.11249727755784988
+   },
+   {
+    "norm_entropy": 0.96197509765625,
+    "mean_max_weight": 0.12865838160117468,
+    "grad_top_share": 0.18652411798636118,
+    "grad_active_frac": 0.9996256430943807,
+    "step": 1500,
+    "loss": 0.10513627529144287
+   }
+  ]
+ },
+ {
+  "task": "nn_type",
+  "lr": 0.03,
+  "final": 0.9650741040513069,
+  "rows": [
+   {
+    "norm_entropy": 0.952024777730306,
+    "mean_max_weight": 0.14128512144088745,
+    "grad_top_share": 0.23044343292713165,
+    "grad_active_frac": 0.999196728070577,
+    "step": 1,
+    "loss": 1.0830096006393433
+   },
+   {
+    "norm_entropy": 0.9653550585110983,
+    "mean_max_weight": 0.12618312487999597,
+    "grad_top_share": 0.19549399614334106,
+    "grad_active_frac": 0.9994060397148132,
+    "step": 25,
+    "loss": 0.8548382520675659
+   },
+   {
+    "norm_entropy": 0.9632540543874105,
+    "mean_max_weight": 0.1322155644496282,
+    "grad_top_share": 0.2052258551120758,
+    "grad_active_frac": 0.9993949731191,
+    "step": 50,
+    "loss": 0.7727838754653931
+   },
+   {
+    "norm_entropy": 0.9646585385004679,
+    "mean_max_weight": 0.1288247580329577,
+    "grad_top_share": 0.1851071467002233,
+    "grad_active_frac": 0.9996671279271444,
+    "step": 100,
+    "loss": 0.4617236256599426
+   },
+   {
+    "norm_entropy": 0.9752635359764099,
+    "mean_max_weight": 0.10997126003106435,
+    "grad_top_share": 0.15342983603477478,
+    "grad_active_frac": 0.9997973243395487,
+    "step": 200,
+    "loss": 0.17319434881210327
+   },
+   {
+    "norm_entropy": 0.9744905034701029,
+    "mean_max_weight": 0.10845200717449188,
+    "grad_top_share": 0.14786134411891302,
+    "grad_active_frac": 0.999803880850474,
+    "step": 400,
+    "loss": 0.11895246058702469
+   },
+   {
+    "norm_entropy": 0.9743436376253763,
+    "mean_max_weight": 0.11288727571566899,
+    "grad_top_share": 0.15141998728116354,
+    "grad_active_frac": 0.9998053113619486,
+    "step": 800,
+    "loss": 0.09303677827119827
+   },
+   {
+    "norm_entropy": 0.9709422389666239,
+    "mean_max_weight": 0.11405954758326213,
+    "grad_top_share": 0.15325706203778586,
+    "grad_active_frac": 0.9997856219609579,
+    "step": 1500,
+    "loss": 0.0811164602637291
+   }
+  ]
+ }
+]

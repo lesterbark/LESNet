@@ -1,0 +1,54 @@
+{"model": "LES all-to-all (CUDA)", "N": 16, "B": 512, "ms": 4.965375900268555, "ms_per_entity_us": 0.6061249878257513, "peak_mb": 108.8740234375, "params": 69888}
+{"model": "LES all-to-all (CUDA)", "N": 32, "B": 256, "ms": 7.180208206176758, "ms_per_entity_us": 0.8764902595430613, "peak_mb": 112.8740234375, "params": 69888}
+{"model": "LES all-to-all (CUDA)", "N": 64, "B": 128, "ms": 11.152680397033691, "ms_per_entity_us": 1.3614111812785268, "peak_mb": 119.3740234375, "params": 69888}
+{"model": "LES all-to-all (CUDA)", "N": 128, "B": 64, "ms": 25.830408096313477, "ms_per_entity_us": 3.153125988319516, "peak_mb": 133.3740234375, "params": 69888}
+{"model": "LES all-to-all (CUDA)", "N": 256, "B": 32, "ms": 61.643775939941406, "ms_per_entity_us": 7.524874992668629, "peak_mb": 161.3740234375, "params": 69888}
+{"model": "LES all-to-all (CUDA)", "N": 512, "B": 16, "ms": 92.50953674316406, "ms_per_entity_us": 11.29266805946827, "peak_mb": 241.1181640625, "params": 69888}
+{"model": "LES all-to-all (CUDA)", "N": 1024, "B": 8, "ms": 184.88536071777344, "ms_per_entity_us": 22.569013759493828, "peak_mb": 465.1181640625, "params": 69888}
+{"model": "LES all-to-all (CUDA)", "N": 2048, "B": 4, "ms": 377.8223571777344, "ms_per_entity_us": 46.12089321017265, "peak_mb": 913.1181640625, "params": 69888}
+{"model": "LES all-to-all (CUDA)", "N": 4096, "B": 2, "ms": 781.4326782226562, "ms_per_entity_us": 95.3897312283516, "peak_mb": 1809.1181640625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 16, "B": 512, "ms": 7.64785623550415, "ms_per_entity_us": 0.9335762006230652, "peak_mb": 109.087890625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 32, "B": 256, "ms": 7.584280014038086, "ms_per_entity_us": 0.9258154314011335, "peak_mb": 109.119140625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 64, "B": 128, "ms": 7.395840167999268, "ms_per_entity_us": 0.9028125205077231, "peak_mb": 109.119140625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 128, "B": 64, "ms": 8.183296203613281, "ms_per_entity_us": 0.9989375248551369, "peak_mb": 109.119140625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 256, "B": 32, "ms": 7.895927906036377, "ms_per_entity_us": 0.9638583869673312, "peak_mb": 109.119140625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 512, "B": 16, "ms": 7.532656192779541, "ms_per_entity_us": 0.9195136954076588, "peak_mb": 109.119140625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 1024, "B": 8, "ms": 7.521383762359619, "ms_per_entity_us": 0.9181376663036644, "peak_mb": 109.119140625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 2048, "B": 4, "ms": 7.988664150238037, "ms_per_entity_us": 0.9751787292771041, "peak_mb": 109.119140625, "params": 69888}
+{"model": "LES list K=16 (CUDA)", "N": 4096, "B": 2, "ms": 8.543264389038086, "ms_per_entity_us": 1.0428789537400007, "peak_mb": 109.119140625, "params": 69888}
+{"model": "LES all-to-all (PyTorch)", "N": 16, "B": 512, "ms": 44.54373550415039, "ms_per_entity_us": 5.437467712908983, "peak_mb": 937.134765625, "params": 69888}
+{"model": "LES all-to-all (PyTorch)", "N": 32, "B": 256, "ms": 86.08251953125, "ms_per_entity_us": 10.508120059967041, "peak_mb": 1837.634765625, "params": 69888}
+{"model": "LES all-to-all (PyTorch)", "N": 64, "B": 128, "ms": 169.76441955566406, "ms_per_entity_us": 20.723195746541023, "peak_mb": 3637.1376953125, "params": 69888}
+{"model": "LES all-to-all (PyTorch)", "N": 128, "B": 64, "ms": null, "peak_mb": null, "oom": true}
+{"model": "LES all-to-all (PyTorch)", "N": 256, "B": 32, "ms": null, "peak_mb": null, "oom": true}
+{"model": "LES all-to-all (PyTorch)", "N": 512, "B": 16, "ms": null, "peak_mb": null, "oom": true}
+{"model": "Transformer", "N": 16, "B": 512, "ms": 17.042503356933594, "ms_per_entity_us": 2.080383710563183, "peak_mb": 193.62548828125, "params": 398464}
+{"model": "Transformer", "N": 32, "B": 256, "ms": 15.874015808105469, "ms_per_entity_us": 1.9377460703253746, "peak_mb": 186.46728515625, "params": 398464}
+{"model": "Transformer", "N": 64, "B": 128, "ms": 15.051575660705566, "ms_per_entity_us": 1.8373505445197225, "peak_mb": 189.46728515625, "params": 398464}
+{"model": "Transformer", "N": 128, "B": 64, "ms": 18.233863830566406, "ms_per_entity_us": 2.2258134558796883, "peak_mb": 195.46728515625, "params": 398464}
+{"model": "Transformer", "N": 256, "B": 32, "ms": 24.588279724121094, "ms_per_entity_us": 3.0014989897608757, "peak_mb": 207.46728515625, "params": 398464}
+{"model": "Transformer", "N": 512, "B": 16, "ms": 38.566383361816406, "ms_per_entity_us": 4.707810468971729, "peak_mb": 239.34033203125, "params": 398464}
+{"model": "Transformer", "N": 1024, "B": 8, "ms": 66.70402526855469, "ms_per_entity_us": 8.142581209540367, "peak_mb": 307.34033203125, "params": 398464}
+{"model": "Transformer", "N": 2048, "B": 4, "ms": 123.04691314697266, "ms_per_entity_us": 15.02037514001131, "peak_mb": 443.34033203125, "params": 398464}
+{"model": "Transformer", "N": 4096, "B": 2, "ms": 237.2738037109375, "ms_per_entity_us": 28.9640873670578, "peak_mb": 715.34033203125, "params": 398464}
+{"model": "Transformer+pf", "N": 16, "B": 512, "ms": 20.05615234375, "ms_per_entity_us": 2.44826078414917, "peak_mb": 204.00341796875, "params": 398560}
+{"model": "Transformer+pf", "N": 32, "B": 256, "ms": 17.742279052734375, "ms_per_entity_us": 2.165805548429489, "peak_mb": 203.72021484375, "params": 398560}
+{"model": "Transformer+pf", "N": 64, "B": 128, "ms": 19.458911895751953, "ms_per_entity_us": 2.3753554560244083, "peak_mb": 222.97021484375, "params": 398560}
+{"model": "Transformer+pf", "N": 128, "B": 64, "ms": 27.157360076904297, "ms_per_entity_us": 3.3151074312627316, "peak_mb": 267.34326171875, "params": 398560}
+{"model": "Transformer+pf", "N": 256, "B": 32, "ms": 43.73701477050781, "ms_per_entity_us": 5.3389910608530045, "peak_mb": 363.34326171875, "params": 398560}
+{"model": "Transformer+pf", "N": 512, "B": 16, "ms": 77.76050567626953, "ms_per_entity_us": 9.492249228060246, "peak_mb": 555.34326171875, "params": 398560}
+{"model": "Transformer+pf", "N": 1024, "B": 8, "ms": 147.05050659179688, "ms_per_entity_us": 17.950501292943954, "peak_mb": 939.34326171875, "params": 398560}
+{"model": "GNN all-to-all (PyTorch)", "N": 16, "B": 512, "ms": 36.63295364379883, "ms_per_entity_us": 4.471796099096537, "peak_mb": 774.18310546875, "params": 250624}
+{"model": "GNN all-to-all (PyTorch)", "N": 32, "B": 256, "ms": 68.34190368652344, "ms_per_entity_us": 8.342517539858818, "peak_mb": 1482.80859375, "params": 250624}
+{"model": "GNN all-to-all (PyTorch)", "N": 64, "B": 128, "ms": 123.96761322021484, "ms_per_entity_us": 15.132765285670757, "peak_mb": 2898.5615234375, "params": 250624}
+{"model": "GNN all-to-all (PyTorch)", "N": 128, "B": 64, "ms": null, "peak_mb": null, "oom": true}
+{"model": "GNN all-to-all (PyTorch)", "N": 256, "B": 32, "ms": null, "peak_mb": null, "oom": true}
+{"model": "GNN gather K=16", "N": 16, "B": 512, "ms": 38.49103927612305, "ms_per_entity_us": 4.698613192886114, "peak_mb": 795.685546875, "params": 250368}
+{"model": "GNN gather K=16", "N": 32, "B": 256, "ms": 42.01495361328125, "ms_per_entity_us": 5.128778517246246, "peak_mb": 843.83984375, "params": 250368}
+{"model": "GNN gather K=16", "N": 64, "B": 128, "ms": 42.13811111450195, "ms_per_entity_us": 5.143812391906977, "peak_mb": 843.8388671875, "params": 250368}
+{"model": "GNN gather K=16", "N": 128, "B": 64, "ms": 41.95752716064453, "ms_per_entity_us": 5.121768452227116, "peak_mb": 843.83837890625, "params": 250368}
+{"model": "GNN gather K=16", "N": 256, "B": 32, "ms": 42.20423889160156, "ms_per_entity_us": 5.151884630322456, "peak_mb": 843.83837890625, "params": 250368}
+{"model": "GNN gather K=16", "N": 512, "B": 16, "ms": 41.99011993408203, "ms_per_entity_us": 5.125747062265873, "peak_mb": 843.83837890625, "params": 250368}
+{"model": "GNN gather K=16", "N": 1024, "B": 8, "ms": 41.659767150878906, "ms_per_entity_us": 5.085420794785023, "peak_mb": 843.83837890625, "params": 250368}
+{"model": "GNN gather K=16", "N": 2048, "B": 4, "ms": 42.55693435668945, "ms_per_entity_us": 5.194938275963068, "peak_mb": 843.83837890625, "params": 250368}
+{"model": "GNN gather K=16", "N": 4096, "B": 2, "ms": 42.61116027832031, "ms_per_entity_us": 5.2015576511621475, "peak_mb": 843.83837890625, "params": 250368}

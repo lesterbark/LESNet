@@ -1,0 +1,36 @@
+operable program or batch file.
+extension: CUDA kernels
+  OK  list R=1     S=1     K=1   W=32    PF=4 one receiver   worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 0.00e+00
+  OK  list R=13    S=13    K=5   W=64    PF=4 R%TI!=0        worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 2.10e-07
+  OK  list R=200   S=200   K=16  W=128   PF=4                worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 4.46e-07
+  OK  list R=200   S=50    K=33  W=100   PF=4 S<R, ragged W  worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 4.04e-07
+  OK  list R=64    S=64    K=12  W=1200  PF=4 W>512          worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 6.00e-07
+  OK  list R=64    S=64    K=12  W=2048  PF=4 W=2048         worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 3.03e-07
+  OK  list R=100   S=100   K=8   W=96    PF=3 PF=3           worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 5.46e-07
+  OK  list R=100   S=100   K=8   W=96    PF=5 PF=5           worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 3.68e-07
+  OK  list R=100   S=100   K=8   W=96    PF=6 PF=6           worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 3.40e-07
+  OK  list R=100   S=100   K=8   W=96    PF=7 PF=7           worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 4.56e-07
+  OK  list R=100   S=100   K=8   W=96    PF=8 PF=8           worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 5.86e-07
+  OK  list R=100   S=100   K=8   W=96    PF=1 PF=1           worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 4.46e-07
+  OK  list R=4096  S=4096  K=24  W=64    PF=4 large R        worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 1.69e-06
+  OK  list R=300   S=300   K=40  W=64    PF=4 mostly empty   worst rel err over fwd/ga/gb/gE/gc1 and 5 tile sizes: 6.52e-07
+  OK  B=2   N=2    W=32    PF=4 tiny           [7f x4b var] fwd 1.19e-07  gab 1.03e-07  gE 1.29e-07  gc1 5.15e-08
+  OK  B=2   N=7    W=64    PF=4 N<TI           [7f x4b var] fwd 2.38e-07  gab 2.39e-07  gE 1.68e-07  gc1 1.81e-07
+  OK  B=1   N=8    W=128   PF=4                [7f x4b var] fwd 2.98e-07  gab 1.94e-07  gE 2.54e-07  gc1 2.24e-07
+  OK  B=1   N=13   W=96    PF=4 N%TI!=0        [7f x4b var] fwd 4.77e-07  gab 2.27e-07  gE 2.14e-07  gc1 1.95e-07
+  OK  B=1   N=32   W=256   PF=4 N=32 steady    [7f x4b var] fwd 5.96e-07  gab 1.85e-07  gE 4.79e-07  gc1 3.37e-07
+  OK  B=1   N=32   W=256   PF=3 PF=3 scalar    [7f x4b var] fwd 5.96e-07  gab 2.34e-07  gE 5.49e-07  gc1 4.73e-07
+  OK  B=1   N=32   W=256   PF=5 PF=5 odd       [7f x4b var] fwd 7.15e-07  gab 2.13e-07  gE 5.82e-07  gc1 3.16e-07
+  OK  B=1   N=32   W=256   PF=6 PF=6 with dir  [7f x4b var] fwd 7.15e-07  gab 3.23e-07  gE 4.04e-07  gc1 4.82e-07
+  OK  B=1   N=32   W=256   PF=7 PF=7 polar     [7f x4b var] fwd 9.54e-07  gab 2.44e-07  gE 5.58e-07  gc1 3.89e-07
+  OK  B=1   N=32   W=256   PF=8 PF=8           [7f x4b var] fwd 9.54e-07  gab 3.50e-07  gE 4.09e-07  gc1 2.88e-07
+  OK  B=1   N=8    W=512   PF=6 PF=6 wide tile [7f x4b var] fwd 4.77e-07  gab 1.92e-07  gE 2.56e-07  gc1 1.82e-07
+  OK  B=1   N=40   W=100   PF=4 masked         [7f x4b var] fwd 4.77e-07  gab 2.23e-07  gE 3.66e-07  gc1 2.40e-07
+  OK  B=1   N=32   W=1024  PF=4 W=1024         [7f x4b var] fwd 1.19e-06  gab 3.72e-07  gE 9.62e-07  gc1 4.07e-07
+  OK  B=1   N=32   W=1200  PF=4 W>1024         [7f x4b var] fwd 7.15e-07  gab 2.96e-07  gE 4.55e-07  gc1 3.22e-07
+  OK  B=1   N=8    W=2048  PF=4 W=2048         [7f x4b var] fwd 4.77e-07  gab 1.87e-07  gE 3.10e-07  gc1 2.18e-07
+  OK  B=1   N=128  W=256   PF=4 N=128          [7f x4b var] fwd 1.07e-06  gab 5.14e-07  gE 8.24e-07  gc1 6.18e-07
+  OK  B=2   N=256  W=128   PF=4 N=256          [7f x4b var] fwd 1.55e-06  gab 6.03e-07  gE 7.50e-07  gc1 9.03e-07
+  OK  B=1   N=512  W=64    PF=4 N=512          [7f x4b var] fwd 1.79e-06  gab 1.03e-06  gE 1.27e-06  gc1 1.28e-06
+
+PASS

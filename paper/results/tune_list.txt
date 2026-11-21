@@ -1,0 +1,4 @@
+operable program or batch file.
+W=  64  R=8192 K=24   TI=1: fwd 0.371 bwd 0.654 ms   TI=2: fwd 0.384 bwd 0.661 ms   TI=4: fwd 0.416 bwd 0.695 ms   TI=8: fwd 0.531 bwd 0.909 ms
+W= 128  R=8192 K=24   TI=1: fwd 0.644 bwd 1.210 ms   TI=2: fwd 0.665 bwd 1.238 ms   TI=4: fwd 0.681 bwd 1.245 ms   TI=8: fwd 0.800 bwd 1.482 ms
+W= 256  R=8192 K=24   TI=1: fwd 1.392 bwd 2.660 ms   TI=2: fwd 1.435 bwd 2.667 ms   TI=4: fwd 1.502 bwd 2.682 ms   TI=8: fwd 1.637 bwd 3.479 ms

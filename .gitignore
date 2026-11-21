@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+build/
+*.egg-info/
+
+# checkpoints and generated data
+*.pt
+*.pth
+*.npy
+*.npz
+*.h5
+paper/data_toptag/
+paper/bench/data/*
+!paper/bench/data/ind.*
+!paper/bench/data/shakespeare.txt
+fluid/data/
+fluid/data2/
+fluid/runs/**/ckpt.pt
+fluid/out/*.gif
+
+# logs
+*.log
+paper/logs/
+fluid/logs/

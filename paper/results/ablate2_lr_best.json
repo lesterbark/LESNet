@@ -1,0 +1,12 @@
+{
+ "softmax (LES)": 0.01,
+ "sum": 0.01,
+ "mean": 0.01,
+ "max": 0.01,
+ "scalar-sum": 0.01,
+ "separate score": 0.01,
+ "hidden pair layer": 0.01,
+ "ReLU": 0.01,
+ "no pair features": 0.01,
+ "pf: pos,axis,polar": 0.01
+}

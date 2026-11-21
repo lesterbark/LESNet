@@ -1,0 +1,26 @@
+{
+ "name": "lr_transformer_0.01",
+ "family": "transformer",
+ "width": 72,
+ "depth": 3,
+ "k": 16,
+ "params": 137977,
+ "lr": 0.01,
+ "seed": 0,
+ "epochs": 2.0,
+ "train_jets": 1211000,
+ "batch": 512,
+ "steps": 400,
+ "train_s": 83.62864565849304,
+ "ms_per_step": 209.0716141462326,
+ "hist": [
+  {
+   "step": 400,
+   "train_loss": 0.22314834244121362,
+   "val_auc": 0.976166354651378,
+   "val_acc": 0.922875,
+   "val_rej30": 405.3061224489796,
+   "val_rej50": 140.85106382978722
+  }
+ ]
+}
